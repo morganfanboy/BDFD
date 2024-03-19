@@ -1,0 +1,7 @@
+$nomention
+$ephemeral
+$setUserVar[Money;$sum[1000;$getUserVar[Money]]]
+$title[$nickname, aqui está sua recompensa diária!]
+$color[FFFFF1]
+$description[Você recebeu K$1000 Kwanzas]
+$cooldown[24h;Você só poderá receber novamente em %time% -_-]
