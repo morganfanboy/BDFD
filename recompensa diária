@@ -1,3 +1,6 @@
+a variavel **[Money] valor=0** use-a ou edite para ficar igual a sua =)
+
+
 $nomention
 $ephemeral
 $setUserVar[Money;$sum[1000;$getUserVar[Money]]]
