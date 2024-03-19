@@ -1,0 +1,11 @@
+Variavel atual é [Money] troque pela sua!
+Carteira apenas de quem estará usando o comando
+
+
+$description[
+
+
+
+:moneybag:K$ $getUserVar[Money] Kwanzas
+]
+$color[$random[100000;9999999]]
