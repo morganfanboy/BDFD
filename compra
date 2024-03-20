@@ -1,0 +1,10 @@
+comando um pouco complexo, mas com ele o usuário só conseguirá comprar X item se por acaso ele tiver a quantia que você estipular na 6a linha, se atentar a isso.
+
+
+$nomention
+$color[ec7a70]
+$onlyIf[$getUserVar[Money]>200000;❌Você não tem dinheiro.]
+$setUserVar[Money;$sub[$getUserVar[Money];200000]]
+$description[Você comprou VIP por 15 dias!]
+$cooldown[15d;Você tem que esperar %time% até poder comprar novamente!]
+$deletecommand
