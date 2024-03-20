@@ -1,0 +1,7 @@
+$nomention
+
+$description[Você trabalhou de:
+$randomText[Caixa do Mc’Donalds 🍔;Stripper 💃🏻;Hacker 💻;Streamer 🖥️🕹️🎥;Jogador de futebol ⚽️;Tiktoker 📱;Coveiro 🪦;Arquiteto 🧑‍💻;Piloto de avião 🧑‍✈️;Químico 🧑‍🔬] e ganhou:
+K$ $random[0;4000] Kwanzas 💵]
+$setUserVar[Money;$sum[$getUserVar[Money];$random[0;4000]]]
+$cooldown[5h; Vá descansar! volte novamente em %time% !]
