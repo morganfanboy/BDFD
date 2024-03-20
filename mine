@@ -1,0 +1,8 @@
+$nomention
+
+$color[ffff00]
+$description[ $nickname
+ ⛏️💎 Você minerou e conseguiu:
+ K$ $random[0;2500] Kwanzas <:coin:586546180947705857>]
+$setUserVar[Money;$sum[$getUserVar[Money];$random[0;2500]]]
+$cooldown[5h;Você só poderá minerar novamente em %time% !]
