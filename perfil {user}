@@ -1,0 +1,12 @@
+$nomention
+$cooldown[1s;<a:erro:591649743554478092>|Você não pode usar o comando em menos de 10 segundos]
+$color[#0000ff]
+$userInfo[
+📃**Nome do usuário: ** {username}
+🆔 **ID**: {ID} 🎫**!**
+:moneybag: **dinheiro**: K$ $getUserVar[Money]
+📱**Criou a conta em**: $creationDate[$authorID]
+📌**Cargos**: $userRoles[$mentioned[1]]
+
+]
+$embedSuppressErrors[Erro;Mencione alguém]
