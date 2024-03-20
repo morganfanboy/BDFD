@@ -1,0 +1,13 @@
+$nomention
+
+$onlyIf[$mentioned[1]!=;<@$authorID>, Mencione duas pessoas para shipar]
+$onlyIf[$mentioned[2]!=; <@$authorID>, Mencione duas pessoas para shipar]
+$onlyIf[$isBot[$mentioned[1]]==false;❌ | <@$authorID>, O usuário não pode ser um robô!]
+$onlyIf[$isBot[$mentioned[2]]==false;❌ | <@$authorID>, O usuário não pode ser um robô!]
+$onlyIf[$mentioned[1]!=$mentioned[2];<@$authorID>, Mencione duas pessoas diferentes!]
+$title[💕 Será que temos um novo casal? 💕]
+$description[Será que <@$mentioned[1]> e <@$mentioned[2]> seria um bom ship? Pra mim é: $randomText[**0% queria falar muito que é possivel, mas... 😭**;**10% nem amigos são...**;**27% Eles só são conhecidos...**;**39% Talvez amigos**;**47% Acho que rola algo...**;**62% Não sei, mas sei que é amor**;**84% Já namoram!!**;**97% Namorados? que nada, eles já são casados!**]]
+$image[https://api.popcat.xyz/ship?user1=$userAvatar[$mentioned[1]]&user2=$userAvatar[$mentioned[2]]]
+$color[#323EDB]  
+$addReactions[❣]
+$deletecommand
