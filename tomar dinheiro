@@ -1,0 +1,7 @@
+$nomention
+
+$deletecommand
+$onlyPerms[managemessages;Only mod/admin can use it.]
+$argsCheck[>2;Usage: =removemoney <mention user> <number>]
+Lula pegou $message[2] dinheiro de $username[$mentioned[<]]', faz o L.
+$setUserVar[Money;$sub[$getUserVar[Money;$mentioned[<]];$message[2]];$mentioned[<]]
