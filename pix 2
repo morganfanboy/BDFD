@@ -1,0 +1,26 @@
+$nomention
+
+$cooldown[5s;⌚ Espere %time% para da dinheiro de novo... ⌚]
+$nomention
+$argsCheck[>2;``` @usuario <valor>```] 
+
+$onlyIf[$isNumber[$noMentionMessage]==true;**⚠️🚫| Faça pagamentos com números!**] 
+
+$onlyIf[$getUserVar[Money]>=$noMentionMessage;**🛂😂| Hahaha, Você não é tão rico que pensei! Você está pobre!**] 
+
+$onlyIf[$noMentionMessage>0;**🛂🤔| Você está tentando roubar? **] 
+
+$onlyIf[$authorID!=$mentioned[<];🧐| Errou bobão!] 
+
+$setUserVar[Money;$sum[$getUserVar[Money;$mentioned[>]];$noMentionMessage];$mentioned[>]]
+
+$setUserVar[Money;$sub[$getUserVar[Money];$noMentionMessage]] 
+
+
+$author[Transação] 
+$authorIcon[$authorAvatar] 
+$thumbnail[$userAvatar[$mentioned[>]]] 
+$description[💰| $displayName fez um pix de **$noMentionMessage** Kwanzas para **$displayName[$mentioned[>]]**] 
+$color[#ff2000] 
+$footer[$addTimestamp]
+$image[https://akket.com/wp-content/uploads/2018/08/Bank-voronezh-52.jpg]
